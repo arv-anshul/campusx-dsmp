@@ -1,0 +1,10 @@
+.DS_Store
+__pycache__/
+.ipynb_checkpoints/
+.vscode/
+
+# Ignore Directory files
+__rough__.*
+./logs/
+data_from_st/
+notebooks/
