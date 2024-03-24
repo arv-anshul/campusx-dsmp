@@ -1,0 +1,85 @@
+/* Distinct colors */
+.danger {
+  color: #dc3545;
+}
+
+.danger-hover:hover {
+  color: #dc3545;
+}
+
+.dark {
+  color: #343a40;
+}
+
+.dark-hover:hover {
+  color: #343a40;
+}
+
+.info {
+  color: #17a2b8;
+}
+
+.info-hover:hover {
+  color: #17a2b8;
+}
+
+.light {
+  color: #f8f9fa;
+}
+
+.light-hover:hover {
+  color: #f8f9fa;
+}
+
+.primary {
+  color: #007bff;
+}
+
+.primary-hover:hover {
+  color: #007bff;
+}
+
+.secondary {
+  color: #6c757d;
+}
+
+.secondary-hover:hover {
+  color: #6c757d;
+}
+
+.success {
+  color: #28a745;
+}
+
+.success-hover:hover {
+  color: #28a745;
+}
+
+.warning {
+  color: #ffc107;
+}
+
+.warning-hover:hover {
+  color: #ffc107;
+}
+
+/* Animations */
+@keyframes bounce {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+}
+
+.hover-icon:hover {
+  transform: scale(1.25);
+}
+.hover-icon-bounce:hover {
+  animation: bounce 1s infinite;
+}
+.bounce {
+  animation: bounce 1s infinite;
+}
